@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>c'est mon super site</title>
     <!-- Chargement de nos feuilles de styles -->
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./style.css">
   </head>
   <body class="no no-panddin-margin">
@@ -19,9 +21,11 @@
       </ul>
     </nav>
     </header>
-    <main>
-    <img src="./gaufre.jpg" alt="image de gaufre">
-    <p>Traduction de H. Rackham (1914)
+    <main class="flex-base flex-center flex-column">
+    <div class="image-container">
+      <img src="./gaufre.jpg" alt="image de gaufre">
+    </div>
+    <p class="p-base">Traduction de H. Rackham (1914)
 "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and
  I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth,
  the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure,
@@ -34,10 +38,10 @@
   </p>
   </main>
     <footer>
-      <ul>
-        <li>creation : 2018</li>
-        <li>Copyright 2018 MCCréation</li>
-        <li><a href="#">mention légales</a></li>
+      <ul  class="flex-base no-pandding-margin list-no-style menu-buttons full-height">
+        <li class="flex-height flex-center flex-center"> Date de création 2018</li>
+        <li class="flex-height flex-center flex-center"> Copyright 2018 MCCréation</li>
+        <li class="flex-height flex-center flex-center"><a href="#">Mention légales</a></li>
       </ul>
     </footer>
   </body>
