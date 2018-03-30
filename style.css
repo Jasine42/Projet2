@@ -2,8 +2,19 @@
 * {
   font-family: 'Exo', sans-serif;
 }
+body {
+  background-image: url('./green_cup.png');
+}
 header {
-  height: 60px
+
+  height: 60px;
+  background: DarkSeaGreen;
+  border: 1px solid: #D2B48C;
+}
+
+main {
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 .full-height {
  height:100%
@@ -21,7 +32,7 @@ header {
   text-transform: uppercase;
 }
 .menu-buttons>li{
-padding-left: :10px;
+padding-left:10px;
 padding-left:10px }
 
 .menu-buttons>li:hover, .menu-buttons>li:hover>a {
@@ -34,7 +45,7 @@ color:white;
   color:white;
 }
 ul.flex-center{
-  width:300px;
+  width:200px;
 }
 .no-padding-margin{
   margin: 0;
@@ -53,20 +64,40 @@ footer{
 .full-height {
  height:100%
 }
+.full-widht{
+  width:80%;
+}
+
 .flex-column {
 flex-direction: column;
+}
+
+.link-no-style{
+  text-decoration: none;
+  color: inherit;
 }
 #logo-title {
   font-family: 'Luckiest Guy', cursive;
 }
 
 
-
+.flex-row-alternance{
+  flex-direction: row-reverse;
+}
 .p-base {
-  width: 650px;
+  width: 460px;
   text-align: justify;
 }
 
+.base-card{
+padding: 20px;
+margin: 20px;
+-webkit-box-shadow: 10px 9px 15px 6px rgba(0,0,0,1);
+-moz-box-shadow: 10px 9px 15px 6px rgba(0,0,0,1);
+box-shadow: 10px 9px 15px 6px rgba(0,0,0,1);
+background-image: url('./linen.png');
+border: 1px solid lightgray;
+}
 
 .image-container>img{
   max-width: 100%;
@@ -79,6 +110,13 @@ flex-direction: column;
 .flex-center{
   align-items: center;
    }
+
+.position-fixed{
+position: fixed;
+width: 100%;
+top: 0;
+  }
+
 .menu-buttons>li>a {
   text-decoration: none;
   color: black;
@@ -102,7 +140,7 @@ ul.flex-center{
 }
 .no-padding-margin{
   margin: 0;
-  padding: 0;
+  padding:0;
 }
 .list-no-style {
   list-style: none;
