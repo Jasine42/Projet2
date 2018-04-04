@@ -19,7 +19,7 @@ main {
 .full-height {
  height:100%
 }
-.flex-base {
+.yoyo {
  display: flex;
  justify-content: space-around;
 }
@@ -103,6 +103,7 @@ border: 1px solid lightgray;
   max-width: 100%;
   height:auto;
 }
+
 .flex-base {
  display: flex;
  justify-content: space-around;
@@ -145,4 +146,27 @@ ul.flex-center{
 .list-no-style {
   list-style: none;
 
+}
+
+#game-container{
+  display: flex;
+  flex-direction: row;
+}
+
+#game-container>div {
+  width: 50px;
+  height: 50px;
+  background-color: lightgray;
+  border: 1px solid black;
+}
+
+#game-container>div:hover{
+  cursor:pointer;
+}
+
+.green-color {
+  background-color: green!important;
+}
+.red-color{
+  background-color: red!important;
 }
